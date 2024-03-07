@@ -3,14 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/src/styles/style.css">
+    <link rel="stylesheet" href="src/styles/style.css">
     <title>Dev Álvaro</title>
 </head>
 <body>
     <header>
         <section>
-            <img src="./src/images/logoHeader.svg" alt="">
-            <h1>Álvaro José</h1>
+            <div id="divLogo">
+                <img src="./src/images/LogoHeader.svg" alt="">
+                <h1>Álvaro José</h1>
+            </div>
+
             <nav>
                 <a href="">home</a>
                 <a href="">sobre</a>
@@ -19,6 +22,55 @@
                 <a href="">resumo</a>
                 <a href="">contato</a>
             </nav>
+        </section>
+
+        <section id="sectionHome">
+            <div>
+                <p>Olá pessoas,</p>
+                <h1>EU SOU PROGRAMADOR</h1>
+                <p>Seja bem-vindo ao meu portifólio website</p>
+
+                <button onclick="scrollTo()">saiba mais sobre mim</button> <br>
+
+                <a href="https://github.com/falcaoalvinho"><img src="src/images/LogoGitHub.svg" alt="Link do GitHub"></a>
+                <a href="https://www.linkedin.com/in/%C3%A1lvaro-jos%C3%A9-190b67293/"><img src="src/images/LogoLinkedin.svg" alt="Link do GitHub"></a>
+            </div>
+
+            <img id="HomeImage"src="src/images/HomeImage.svg">
+        </section>
+
+        <section id="sectionAbout">
+            <img src="src/images/FotoPerfil.png" alt="Foto de perfil">
+            <h1>Álvaro <span>José</span></h1>
+            <p>My name is Álvaro José de Souza Falcão 👋 I'm from Brazil, São Paulo/SP. Studying, 2th period, Systems Development at the SENAI-Suiço Brasileiro - São Paulo.</p>
+            <h1><span>Hard</span> Skills</h1>
+                
+            <ul>
+                <li>
+                    <h3>HTML</h3>
+                    <img src="src/images/Skill45.png" alt="HTML">
+                </li>
+                <li>
+                    <h3>CSS</h3>
+                    <img src="src/images/Skill35.png" alt="CSS">
+                </li>
+                <li>
+                    <h3>JavaScript</h3>
+                    <img src="src/images/Skill25.png" alt="JavaScript">
+                </li>
+                <li>
+                    <h3>Python</h3>
+                    <img src="src/images/Skill35.png" alt="Python">
+                </li>
+                <li>
+                    <h3>MySQL</h3>
+                    <img src="src/images/Skill25.png" alt="MySQL">
+                </li>
+                <li>
+                    <h3>Java</h3>
+                    <img src="src/images/Skill35.png" alt="Java">
+                </li>
+            </ul>
         </section>
     </header>
 

@@ -6,6 +6,11 @@
     text-decoration: none;
 }
 
+body {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
 header {
     width: 100%;
     height: 1080px;
@@ -14,6 +19,89 @@ header {
 
 section {
     display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
 }
 
+nav > a{
+    margin-left: 50px;
+    color: rgba(68, 89, 100, 1);
+}
+
+#divLogo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#divLogo h1 {
+    margin-left: 10px;
+    color: rgba(68, 89, 100, 1);
+}
+
+#sectionHome {
+    display: flex;
+    flex-direction: row;
+    color: rgba(68, 89, 100, 1);
+}
+
+#sectionHome div {
+    margin-top: 120px;
+}
+
+#sectionHome p {
+    font-size: 24px;
+}
+
+#sectionHome h1 {
+    font-size: 72px;
+}
+
+#sectionHome button {
+    border: none;
+    width: 310px;
+    height: 65px;
+    background-color: rgba(38, 49, 56, 1);
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+#HomeImage {
+    width: 80%;
+    height: 80%;
+
+    margin-top: 120px;
+}
+
+#sectionAbout {
+    margin-top: 120px;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+#sectionAbout img {
+    width: 220px;
+    height: 220px;
+}
+
+#sectionAbout h1 {
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 75px;
+    color: rgba(68, 89, 100, 1);
+}
+
+#sectionAbout span {
+    color: rgba(68, 89, 100, 1);
+}
 
